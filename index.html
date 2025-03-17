@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DoM</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <h1>HTML Forms</h1>
+    <div class="individual-inputs">
+      <input type="text" placeholder="Firstname" id="first-name" />
+      <input type="text" placeholder="Lastname" id="last-name" />
+      <button id="submit">submit</button>
+    </div>
+    <form id="student-details">
+      <input
+        type="text"
+        name="firstname"
+        id=""
+        placeholder="firstname"
+        required
+      />
+      <input type="text" name="lastname" placeholder="lastname" required />
+      <input type="email" name="email" placeholder="email" required />
+      <input type="date" name="dateOfBirth" required />
+      <button type="submit">submit details</button>
+    </form>
+
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
